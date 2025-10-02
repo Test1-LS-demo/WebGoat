@@ -1,0 +1,78 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "serialNumber": "urn:uuid:webgoat-sbom-001",
+  "metadata": {
+    "timestamp": "2025-10-01T22:00:00.000Z",
+    "tools": [
+      {
+        "vendor": "Legit Security",
+        "name": "Demo SBOM Generator",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "WebGoat",
+      "version": "5.4.3",
+      "description": "OWASP WebGoat - Vulnerable Java application"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Java",
+      "version": "8.0.0",
+      "description": "Java programming language",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Apache Tomcat",
+      "version": "8.5.0",
+      "description": "Apache Tomcat servlet container",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Spring Framework",
+      "version": "4.3.0",
+      "description": "Spring Framework for Java",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "Hibernate",
+      "version": "5.2.0",
+      "description": "Hibernate ORM for Java",
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1"
+          }
+        }
+      ]
+    }
+  ]
+}
+
